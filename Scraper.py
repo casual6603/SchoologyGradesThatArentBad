@@ -8,7 +8,7 @@ import time
 from bs4 import BeautifulSoup
 
 
-
+#are we trollin rn??
 #could this be a little bit of trolling
 
 

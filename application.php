@@ -1,7 +1,9 @@
 <?php
 
+
+
 // Replace this with the path to the Schoology PHP SDK
-require_once('https://github.com/schoology/schoology_php_sdk');
+require_once('C:\Users\John\schoology_php_sdk');
 
 // Replace these values with your application's consumer key and secret
 $consumer_key = 'consumerkey';
@@ -38,5 +40,6 @@ if(!isset($_SESSION['schoology']['uid'])){
   // to ensure that the user still has an active web session
     $_SESSION['session_created'] = time();
 }
+
 
 ?>
